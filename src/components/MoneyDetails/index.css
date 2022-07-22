@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.currentTrack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.moneyCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  border-width: 1px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  height: 100px;
+  border-style: solid;
+}
+.balanceCard {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.IncomeCard {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.activityLogo {
+  height: 50px;
+  margin-right: 10px;
+}
+.currency {
+  font-weight: 500;
+}
+.expenditureCard {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}

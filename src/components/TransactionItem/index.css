@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.listParagraph {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.TitleList {
+  list-style-type: none;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+}
+.deleteBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.deleteLogo {
+  height: 20px;
+}

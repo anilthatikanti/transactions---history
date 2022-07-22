@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 30px;
+  width: 140%;
+  height: 200px;
+  background-size: cover;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  height: 200px;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.profileHeading {
+  margin: 0px;
+}
+.profilePara {
+  margin: 0px;
+}
+
+span {
+  color: #0b69ff;
+  font-weight: bolder;
+}
+
+.transactionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.transactionInput {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 40%;
+}
+.transactionHistory {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 58%;
+}
+.heading {
+  font-size: 20px;
+}
+label {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #7e858e;
+  font-size: 10px;
+}
+input {
+  border-color: #d7dfe9;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  color: #7e858e;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+select {
+  border-color: #d7dfe9;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  color: #7e858e;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  outline: none;
+  border-width: 0px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.TitleList {
+  list-style-type: none;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+}
+.listPara {
+  margin-left: 20px;
+  margin-right: 20px;
+}
